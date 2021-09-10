@@ -1,0 +1,95 @@
+<style>
+
+header{
+	background-color: hsla( 0, 60%, 20%, 1);
+}
+
+h1{
+	font-family: Georgia, Verdana;
+	font-size: 40;
+	color: hsla( 0, 80%, 30%, 1);
+	/*background-color: hsla( 0, 100%, 80%, 1);*/
+	padding: 20;
+	border: 2;
+	margin: 10;
+	h1.text-align: center;
+}
+
+h2{
+	font-family: Georgia, Verdana;
+	color: hsla( 0, 80%, 35%, 1);
+	background-color: hsla( 0, 60%, 70%, 1);
+	padding: 30;
+	border: 2;
+	margin: 5;
+	display: inline;
+}
+
+h3{
+	font-family: Georgia, Verdana;
+	color: hsla( 0, 80%, 40%, 1);
+	background-color: hsla( 0, 20%, 90%, 1);
+	padding: 20;
+	border: 2;
+	margin: 10;
+}
+
+h4{
+	color: red;
+}
+
+a{
+color: hsla( 0, 40%, 20%, 1);
+}
+
+img:hover{
+	cursor: pointer;
+}
+
+
+/*nav {
+	background-color: ( 43, 71%, 20%, 1);
+	overflow: hidden;
+	
+	float: left;
+	height: 100%;
+	background: #ccc;
+	padding: 20px;
+}*/
+
+nav a:hover {
+	  background-color: orange;
+	  color: black;}
+
+
+body{	
+	font-family: calibri;
+	background-color: hsla( 0, 20%, 80%, 1);
+	img{
+		height: 400;
+		width: 285;
+	}
+}
+header{diplay: inline;}
+
+header ul{
+	list-style: none;
+	diplay: inline;
+	float: right;
+}
+
+header ul li{
+	diplay: inline;
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+
+</style>

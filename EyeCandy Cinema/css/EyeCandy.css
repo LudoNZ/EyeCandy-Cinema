@@ -1,0 +1,94 @@
+/* CSS Styles are imp[lemented on each website page.*/
+body{	
+	font-family: arial;
+	background-color: rgb(5, 0, 50);
+	color: white;
+	margin: 0;
+	img{
+		height: 400;
+		width: 285;
+	}
+}
+
+header{
+	
+	padding: 0;
+	color: white;
+	
+}
+
+nav{background-color: indigo;}
+
+nav img{
+	width: 30%;
+	display: inline;
+	padding: 10 15 0 15;
+}
+
+nav ul{
+	display: inline-block;
+	float: right;
+	margin: 2;
+	width: 60%;
+	
+}
+
+nav ul li{
+	display: inline;
+	list-style: none;
+	padding: 4 0;
+	margin: .2em;
+	float: right;
+}
+
+nav ul li a{
+	color: white;
+	}
+
+nav a {
+	  padding: .5em 1em;
+	  border-radius: 5px
+	  }
+	  
+nav a:hover {
+	  background-color: Black;
+	  padding: .5em 1em;
+	  }
+
+article{
+	background-color: rgb(40, 10, 130);
+	display: inline-block;
+	margin: 4 0 30 30;
+	padding: 10;
+	width: 280;
+	text-align: center;
+}
+
+article p{margin: 10 20}
+
+
+article img{height: 400;
+	}
+
+hr{
+	width:90%;
+	text-align:centre;
+	color: indigo;
+	border-width: 4px;
+	
+}
+
+iframe{	
+	width: 80%; 
+	height: 100%
+}
+
+footer {
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  padding:15;
+	  width: 100%;
+	  background-color: indigo;
+	  text-align: center;
+}
